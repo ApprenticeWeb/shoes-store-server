@@ -9,7 +9,7 @@ import {createOrder, deleteOrder, getAllOrder, updateOrder} from "./controllers/
 
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb+srv://admin:wwwwww@cluster0.ki4d58z.mongodb.net/shoe-store?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://admin:wwwwww@atlascluster.lsf0sbz.mongodb.net/')
     .then(() => console.log('Data Base connect, OK'))
     .catch((err) => console.log('Data Base connect, error >>>', err));
 
